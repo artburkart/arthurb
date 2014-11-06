@@ -1,3 +1,36 @@
-<h2 id='title'>Welcome to Ember.js</h2>
-
-{{outlet}}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-4">
+              <img class="gravatar" src="http://www.gravatar.com/avatar/61f1460caefde0aba13550c6627c212c"></img>
+            </div>
+            <div class="bio-box col-xs-8">
+              <h3 class="text-center">Arthur Burkart</h3>
+              <div class="row">
+                <p class="text-right col-xs-5 col-md-4">Place of Birth:</p><p class="text-center">Marshfield, WI</p>
+                <p class="text-right col-xs-5 col-md-4">Education:</p><p class="text-center">Computer Science</p>
+                <p class="text-right col-xs-5 col-md-4">Career Goal:</p><p class="text-center">Web Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row">
+            <a href="https://github.com/artburkart"><i class="icon col-xs-3 fa fa-github"></i></a>
+            <a href="https://twitter.com/artburkart"><i class="icon col-xs-3 fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/pub/arthur-burkart/39/375/a20"><i class="icon col-xs-3 fa fa-linkedin"></i></a>
+            <a href="http://artvb.com/blog"><i class="icon col-xs-3 fa fa-comments-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{outlet}}
+  </div>
+</div>

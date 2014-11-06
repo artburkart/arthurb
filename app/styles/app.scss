@@ -1,0 +1,32 @@
+html, body {
+  margin: 20px;
+  background: lavender;
+  font-size: 14px;
+  line-height: 1.428;
+}
+.bio-box {
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.info-box {
+  h3 {
+    margin-top: 7px;
+  }
+  min-height: 300px;
+}
+.gravatar {
+  margin-top: 12px;
+}
+.icon {
+  text-align: center;
+  font-size: 3em;
+}
+.tech {
+  padding: 0;
+  margin: 0;
+}
